@@ -1,0 +1,43 @@
+# === Terraform ===
+# Local .terraform directories
+**/.terraform/*
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Terraform variable files with secrets
+*.tfvars
+*.tfvars.json
+
+# Override files (local changes not to be committed)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Plan output files
+*.plan
+
+# Lock file (optional: keep if you want consistent provider versions)
+.terraform.lock.hcl
+
+# === Kafka / Related ===
+# Kafka logs & data (if generated locally)
+kafka-logs/
+logs/
+data/
+
+# Any temp files from Kafka scripts
+*.log
+*.tmp
+
+# === System / Editor ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
